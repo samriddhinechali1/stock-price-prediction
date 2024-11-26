@@ -18,13 +18,27 @@ The following frameworks and modules have been used to make this app-
 * **Visualizing Forecast**: Display future stock price predictions alongside historical data 
 * **Prophet Model**: Make time-series predictions with the powerful Prophet model 
 * **AutoRegressive (AR) Model**: Predict stock trends using the statistical AR model from Statsmodels 
-* **Customizable Settings**: Select the stock, time period, and data interval for flexible analysis 
+* **Customizable Settings**: Select the stock, time period, and data interval for flexible analysis
+
+## 🌟 How to Run the App Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/samriddhinechali1/stock-price-prediction.git
+   ```
+2. Install the requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```bash
+   streamlit run stock_predictor.py
+   ```
 
 
 ## 🚀 Conclusion
 This app provides a simple yet powerful tool for predicting stock prices using time-series forecasting techniques. While I’ve used the Prophet model and the AutoRegressive (AR) model to generate predictions, I have also experimented with the ARIMA model. However, the results from ARIMA were unsatisfactory, so I decided not to include it in the app for now. Despite this, I plan to revisit ARIMA or explore other models like LSTM (Long Short-Term Memory) networks to further improve accuracy in future updates.
 
-
----
+## 📌 Note
+Remember, this app is just for fun—don’t bet your life savings on these predictions! Real stock market decisions should always come with solid research and professional advice. 😉
 
 
