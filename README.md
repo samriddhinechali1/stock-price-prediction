@@ -1,6 +1,6 @@
 # 📊 Stock Price Prediction App 📈
 
-Welcome to the **Stock Price Prediction App**! This app predicts the future stock prices of various companies using advanced machine learning models. With this tool, you can analyze historical data and make predictions using two popular models: **Prophet** and **AutoRegressive (AR)**.Currently, the app supports predictions for only 10 companies but there might be changes in the future! 
+This app predicts the future stock prices of various companies using advanced machine learning models. With this tool, you can analyze historical data and make predictions using two popular models: **Prophet** and **AutoRegressive (AR)**.Currently, the app supports predictions for only 10 companies but there might be changes in the future! 
 
 ## 🧰 Models used
 
@@ -13,12 +13,14 @@ The following frameworks and modules have been used to make this app-
 - **Statsmodels**: For statistical modeling, including AutoRegressive (AR) and other time series models 
 - **yfinance**: For fetching real-time stock data 
 
-## 🌟 Key Features
+
+## 🔑 Key Features
 * **Real-Time Data**: Fetch live stock data for selected companies 
 * **Visualizing Forecast**: Display future stock price predictions alongside historical data 
 * **Prophet Model**: Make time-series predictions with the powerful Prophet model 
 * **AutoRegressive (AR) Model**: Predict stock trends using the statistical AR model from Statsmodels 
 * **Customizable Settings**: Select the stock, time period, and data interval for flexible analysis
+
 
 ## 🌟 How to Run the App Locally
 1. Clone this repository:
